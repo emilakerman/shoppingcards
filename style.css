@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(#e66465, #9198e5);
+}
+body .card, .card2 {
+    display: grid;
+    float: left;
+    margin: 0 15px;
+    background-color: white;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 220px;
+  }
+  .card:hover, .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  #bg {
+    width: 220px;
+    height: 170px;
+    background: orange;
+  }
+  #bg img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+  }
+  h4 {
+    font-size: 13px;
+  }
+  aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  aside > button {
+    height: 25px;
+    margin: auto;
+  }
+.carousel {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    padding: 20px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* nav stuff */
+header nav {
+    background-color: beige;
+    height: 80px;
+    width: 50%;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a.active,a:hover {
+    background-color: gray;
+    transition: .5s;
+}
+/* horizontal cards */
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 500px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card2 #bg2 {
+    background: orange;
+  }
+  #container2 {
+    padding: 2px 16px;
+  }
+  #container2 button {
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+  }
+   #bg2 img {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      margin: auto;
+    }
+  
